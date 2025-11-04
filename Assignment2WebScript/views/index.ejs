@@ -1,11 +1,84 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-  </head>
-  <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
-  </body>
+    <head>
+        <meta charset="UTF-8">
+        <link href="/stylesheets/Main.css" rel="stylesheets" >
+        <link href="/stylesheets/mobile.css" rel="stylesheets">
+        <link href="/stylesheets/tablet.css" rel="stylesheets">
+        <title></title>
+    </head>
+    <body>
+        <div id="wrapper">
+            <header>
+                <h1> Welcome to Samir's Portfolio! </h1>
+                <p></p>
+                <nav>
+                    <a href="index">Home Page</a> | 
+                    <a href="contact">Feedback Form</a> | 
+                    <a href="about">About me</a>
+                    <a href="project">Projects</a>
+                </nav>
+            </header>
+            <article>
+                
+                <h3> Welcome! I hope you learn more about me. Check out my feedback form, my all about me page, and my Projects that I have worked on</mark> </h3>
+                
+              
+                
+                <figure>
+                    <img src="DSC06536.jpeg" width="210px" height="210px">
+                    <figcaption>
+                        <h4>This image is sample image</h4>
+                    </figcaption>
+                </figure>
+            </article>
+            <footer>
+                <h5> Site made by Samir </h5>
+               \
+                 <nav> 
+                    <a href="index">Home Page</a> | 
+                    <a href="contact">Feedback Form</a> | 
+                    <a href="projects">Projects</a>
+                    <a href="about">About me</a>
+                </nav>
+            </footer>
+  
+        <title>Animations</title>
+        <style>
+            .box
+            {
+                width: 200px;
+                height: 120px;
+                border-radius: 60px;
+                font-size: 50px;
+                padding: 10px;
+                font-family: sans-serif;
+                position: relative;
+                text-align: center;
+                animation: shape-shift 20s infinite linear;
+                animation-name: shape-shift;
+                animation-duration: 2s;
+                animation-iteration-count: infinite;
+                
+                
+            }
+            /* Animations */
+            /* moving object */
+            /* Frames --> KeyFrames, @keyframes */
+            /* Function --> Declaration, Definition, Call */
+            @keyframes shape-shift
+            {
+                0%{background-color: yellow; transform: scale(0.5);}
+                25%{background-color: green; border-radius: 0px; transform: translateX(200px) scale(1);}
+                50%{background-color: bisque; border-radius: 30px; transform: translateX(400px) scale(2);}
+                100%{background-color: yellow; border-radius: 60px; transform: scale(1);}
+            }
+
+            
+        </style>
+    <body>
+        <div class="box">
+            <p>HTML5</p>
+        </div>
+    </body>
 </html>
