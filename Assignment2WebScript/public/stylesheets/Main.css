@@ -50,10 +50,12 @@ aside
     height: 600px;
     background-color: LightGray;
 }
+
 mark
 {
     background-color: green;
 }
+
 figure
 {
     position: relative;
@@ -64,16 +66,19 @@ figure
     padding: 5px;
     border: 2px solid black;
 }
+
 figcaption
 {
     position: bottom;
     background-color: black;
     color: white;
 }
+
 article
 {
     height: 520px;
 }
+
 /* The left-column ID style is floated left */
 #left-column {
     float: left;
@@ -81,6 +86,7 @@ article
     background-color: silver;
     height: 600px;
 }
+
 /* Defining a style for a set of tags separated by commas applies the style to all tags */
 h1,h2,h3,h4,h5,h6,p,li {
     margin-left: 15px;
